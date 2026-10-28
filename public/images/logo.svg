@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" fill="none">
+  <defs>
+    <!-- Rich 3D Metallic Champagne & Foil Gold Gradients -->
+    <linearGradient id="gold3D" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1cc" />
+      <stop offset="22%" stop-color="#eec17b" />
+      <stop offset="48%" stop-color="#c98a4b" />
+      <stop offset="72%" stop-color="#f9dfa7" />
+      <stop offset="100%" stop-color="#9e6324" />
+    </linearGradient>
+
+    <linearGradient id="goldVertical" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#fff3d1" />
+      <stop offset="40%" stop-color="#e8b47a" />
+      <stop offset="55%" stop-color="#b67637" />
+      <stop offset="85%" stop-color="#f3c98b" />
+      <stop offset="100%" stop-color="#8f5519" />
+    </linearGradient>
+
+    <linearGradient id="bladeSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d89d58" />
+      <stop offset="50%" stop-color="#fff8e6" />
+      <stop offset="100%" stop-color="#a86b2c" />
+    </linearGradient>
+
+    <radialGradient id="emblemBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#21160b" />
+      <stop offset="75%" stop-color="#0a0704" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+
+    <filter id="goldShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#e0a458" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <!-- LEFT: LUXURY SALON CREST EMBLEM -->
+  <g transform="translate(8, 6)" filter="url(#goldShadow)">
+    <!-- Outer Ornate Gold Ring -->
+    <circle cx="74" cy="74" r="66" fill="url(#emblemBg)" stroke="url(#gold3D)" stroke-width="3" />
+    <circle cx="74" cy="74" r="59" fill="none" stroke="url(#gold3D)" stroke-width="1" stroke-dasharray="3 3" opacity="0.85" />
+    <circle cx="74" cy="74" r="54" fill="none" stroke="url(#gold3D)" stroke-width="1.5" opacity="0.9" />
+
+    <!-- Top Royal Crown Motif -->
+    <path
+      d="M54 31 L62 40 L74 25 L86 40 L94 31 L90 46 L58 46 Z"
+      fill="url(#goldVertical)"
+      stroke="url(#gold3D)"
+      stroke-width="0.8"
+      stroke-linejoin="round"
+    />
+    <circle cx="54" cy="28" r="2.2" fill="#fff1cc" />
+    <circle cx="74" cy="21" r="2.8" fill="#fff1cc" />
+    <circle cx="94" cy="28" r="2.2" fill="#fff1cc" />
+
+    <!-- Flowing Silk Hair Wave Ribbons (Left & Right) -->
+    <path
+      d="M28 70 C24 50, 40 36, 48 52 C56 68, 34 86, 46 106 C32 96, 30 82, 28 70 Z"
+      fill="url(#gold3D)"
+      opacity="0.9"
+    />
+    <path
+      d="M120 70 C124 50, 108 36, 100 52 C92 68, 114 86, 102 106 C116 96, 118 82, 120 70 Z"
+      fill="url(#gold3D)"
+      opacity="0.9"
+    />
+
+    <!-- Realistic 3D Sculpted Barber / Couture Shears -->
+    <!-- Left-to-Right Shear Blade -->
+    <path
+      d="M49 44 L86 92 L80 95 L45 48 Z"
+      fill="url(#bladeSheen)"
+      stroke="#7a4612"
+      stroke-width="0.7"
+    />
+    <!-- Right-to-Left Shear Blade -->
+    <path
+      d="M99 44 L62 92 L68 95 L103 48 Z"
+      fill="url(#goldVertical)"
+      stroke="#7a4612"
+      stroke-width="0.7"
+    />
+    <!-- Center Diamond Screw Pivot -->
+    <circle cx="74" cy="72" r="4.5" fill="#1a1108" stroke="url(#gold3D)" stroke-width="1.8" />
+    <circle cx="74" cy="72" r="1.8" fill="#fff5d6" />
+
+    <!-- Left Ergonomic Gold Finger Ring & Tang -->
+    <circle cx="57" cy="105" r="12" fill="none" stroke="url(#gold3D)" stroke-width="4.2" />
+    <circle cx="57" cy="105" r="9.5" fill="none" stroke="#fff3d1" stroke-width="0.7" opacity="0.6" />
+    <path d="M45 109 Q37 113 35 106" fill="none" stroke="url(#gold3D)" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Right Ergonomic Gold Finger Ring & Tang -->
+    <circle cx="91" cy="105" r="12" fill="none" stroke="url(#gold3D)" stroke-width="4.2" />
+    <circle cx="91" cy="105" r="9.5" fill="none" stroke="#fff3d1" stroke-width="0.7" opacity="0.6" />
+    <path d="M103 109 Q111 113 113 106" fill="none" stroke="url(#gold3D)" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Bottom Star Diamond -->
+    <polygon points="74,117 77,123 74,129 71,123" fill="url(#goldVertical)" />
+  </g>
+
+  <!-- RIGHT: BOLD LUXURY BRAND WORDMARK (VERTICALLY CENTERED) -->
+  <g transform="translate(170, 0)" filter="url(#goldShadow)">
+    <!-- Main Bold Title: VELOUR -->
+    <text
+      x="0"
+      y="86"
+      fill="url(#goldVertical)"
+      stroke="url(#gold3D)"
+      stroke-width="0.6"
+      font-family="'Playfair Display', 'Didot', 'Bodoni MT', Georgia, serif"
+      font-size="64"
+      font-weight="700"
+      letter-spacing="8.5"
+    >
+      VELOUR
+    </text>
+
+    <!-- Bottom Subtitle: HAIR ATELIER with side ornaments -->
+    <polygon points="4,118 11,114 11,122" fill="url(#gold3D)" />
+    <line x1="16" y1="118" x2="54" y2="118" stroke="url(#gold3D)" stroke-width="1.8" />
+    <text
+      x="68"
+      y="124"
+      fill="#ffffff"
+      font-family="'Montserrat', 'Segoe UI', Arial, sans-serif"
+      font-size="18"
+      font-weight="700"
+      letter-spacing="10.5"
+    >
+      HAIR ATELIER
+    </text>
+    <line x1="336" y1="118" x2="374" y2="118" stroke="url(#gold3D)" stroke-width="1.8" />
+    <polygon points="386,118 379,114 379,122" fill="url(#gold3D)" />
+  </g>
+</svg>

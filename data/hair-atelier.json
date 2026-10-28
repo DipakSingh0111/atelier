@@ -1,0 +1,1335 @@
+{
+  "categories": {
+    "HairAtelier": {
+      "templateComponents": {
+        "template-1": {
+          "shared": {
+            "Header": "HairAtelierHeader1",
+            "Footer": "HairAtelierFooter1"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "HairAtelierHeroBanner1"
+                },
+                {
+                  "key": "About",
+                  "component": "HairAtelierAboutUs1"
+                },
+                {
+                  "key": "WhyChooseUs",
+                  "component": "HairAtelierWhyChooseUs1"
+                },
+                {
+                  "key": "Stats",
+                  "component": "HairAtelierStats1"
+                },
+                {
+                  "key": "Services",
+                  "component": "HairAtelierServices1"
+                },
+                {
+                  "key": "Gallery",
+                  "component": "HairAtelierGallery1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "HairAtelierTestimonials1"
+                },
+                {
+                  "key": "Contact",
+                  "component": "HairAtelierContactPage1"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "Global": {
+          "variants": {
+            "HairAtelierGlobal1": {
+              "companyName": "L'Or Noir Hair Atelier",
+              "logo": {
+                "src": "/images/logo.svg",
+                "alt": "Velour Hair Atelier",
+                "width": 600,
+                "height": 160,
+                "href": "/#home"
+              },
+              "contact": {
+                "address": "480 Madison Ave, Penthouse Suite, Manhattan, NY 10022",
+                "addressHref": "https://maps.google.com/?q=480+Madison+Ave,+New+York,+NY+10022",
+                "phone": "+1 (212) 894-5700",
+                "phoneHref": "tel:+12128945700",
+                "email": "concierge@hairatelier.com",
+                "emailHref": "mailto:concierge@hairatelier.com",
+                "hours": "Tue – Sun : 9:30 AM – 8:30 PM"
+              },
+              "socials": [
+                {
+                  "name": "Facebook",
+                  "url": "https://facebook.com",
+                  "icon": "facebook"
+                },
+                {
+                  "name": "Instagram",
+                  "url": "https://instagram.com",
+                  "icon": "instagram"
+                },
+                {
+                  "name": "YouTube",
+                  "url": "https://youtube.com",
+                  "icon": "youtube"
+                },
+                {
+                  "name": "Pinterest",
+                  "url": "https://pinterest.com",
+                  "icon": "pinterest"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "HairAtelierHeader1": {
+              "logo": {
+                "src": "/images/logo.svg",
+                "alt": "Velour Hair Atelier",
+                "width": 600,
+                "height": 160,
+                "href": "/#home"
+              },
+              "menu": [
+                {
+                  "label": "Home",
+                  "href": "/#home"
+                },
+                {
+                  "label": "About",
+                  "href": "/#about"
+                },
+                {
+                  "label": "Services",
+                  "href": "/#services"
+                },
+                {
+                  "label": "Gallery",
+                  "href": "/#gallery"
+                },
+                {
+                  "label": "Testimonial",
+                  "href": "/#testimonials"
+                }
+              ],
+              "cta": {
+                "label": "Contact Us",
+                "href": "/#contact"
+              }
+            }
+          }
+        },
+        "HeroBanner": {
+          "variants": {
+            "HairAtelierHeroBanner1": {
+              "autoplayInterval": 6000,
+              "slides": [
+                {
+                  "id": 1,
+                  "image": {
+                    "src": "/images/hero-slide-1.jpg",
+                    "alt": "Master artisan crafting an architectural cut at Hair Atelier"
+                  },
+                  "badge": "Haute Coiffure & Bespoke Grooming",
+                  "heading": {
+                    "main": "Sculpted, Refined",
+                    "highlight": "Unforgettable"
+                  },
+                  "description": "Where Parisian runway precision meets restorative botanical alchemy. Experience one-on-one artistry tailored to your bone structure and lifestyle.",
+                  "cta": {
+                    "label": "Get a Quote",
+                    "href": "/#contact"
+                  }
+                },
+                {
+                  "id": 2,
+                  "image": {
+                    "src": "/images/hero-slide-2.jpg",
+                    "alt": "Silk-infused blowout and luminous styling in progress"
+                  },
+                  "badge": "Luminous Color & Silk Finish",
+                  "heading": {
+                    "main": "Artistry In",
+                    "highlight": "Every Strand"
+                  },
+                  "description": "From sun-lit dimensional balayage to mirror-gloss blowouts, our colour chemists formulate custom pigments that protect and illuminate.",
+                  "cta": {
+                    "label": "Explore Services",
+                    "href": "/#services"
+                  }
+                },
+                {
+                  "id": 3,
+                  "image": {
+                    "src": "/images/hero-slide-3.jpg",
+                    "alt": "Executive gentleman grooming in our private suite"
+                  },
+                  "badge": "The Gentleman's Sanctuary",
+                  "heading": {
+                    "main": "Timeless Craft",
+                    "highlight": "Modern Edge"
+                  },
+                  "description": "Unwind with hot-towel aromatherapy, straight-razor beard architecture, and bespoke scissor work in our sound-insulated luxury suites.",
+                  "cta": {
+                    "label": "Contact Us",
+                    "href": "/#contact"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "HairAtelierAboutUs1": {
+              "badge": "About Us",
+              "heading": {
+                "main": "Where Architectural Precision",
+                "highlight": "Meets Restorative Luxury"
+              },
+              "paragraphs": [
+                "Founded in Manhattan's historic fashion district, Hair Atelier was envisioned as an intimate sanctuary away from the rushed, assembly-line salon culture. We believe hair design is wearable architecture—each silhouette must harmonize with your facial geometry, natural movement, and personal aura.",
+                "Our master directors trained across Paris, Milan, and Tokyo bring together couture dry-cutting, ammonia-free botanical colour chemistry, and Japanese head-spa rituals to deliver transformations that feel as extraordinary six weeks later as the moment you step out of our chair."
+              ],
+              "experience": {
+                "value": "18+",
+                "label": "Years of Couture Craft"
+              },
+              "images": {
+                "main": {
+                  "src": "/images/Hair_salon_01.jpg",
+                  "alt": "Luminous architectural interior of Hair Atelier flagship studio",
+                  "width": 864,
+                  "height": 1152
+                },
+                "secondary": {
+                  "src": "/images/Hair_salon_07.jpg",
+                  "alt": "Creative director executing a precision blonde layering cut",
+                  "width": 864,
+                  "height": 1152
+                }
+              },
+              "features": [
+                {
+                  "icon": "users",
+                  "title": "Runway-Trained Directors",
+                  "description": "Senior artisans with international fashion week and editorial credentials."
+                },
+                {
+                  "icon": "scissors",
+                  "title": "Bespoke Bone-Structure Mapping",
+                  "description": "Every cut and colour is custom-proportioned to your unique features."
+                },
+                {
+                  "icon": "diamond",
+                  "title": "Botanical & Bond-Building Care",
+                  "description": "100% cruelty-free, organic elixirs that rebuild hair integrity from within."
+                }
+              ],
+              "cta": {
+                "label": "Book Appointment",
+                "href": "/#contact"
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "HairAtelierServices1": {
+              "badge": "Our Services",
+              "heading": {
+                "main": "Six Couture Services for",
+                "highlight": "Effortless Radiance"
+              },
+              "description": "Each appointment begins with a diagnostic scalp and facial-proportion analysis, followed by our signature aromatic welcome ritual.",
+              "priceUnit": "/ session",
+              "detailsLabel": "Book Service",
+              "list": [
+                {
+                  "id": "01",
+                  "icon": "scissors",
+                  "title": "Architectural Haircut",
+                  "description": "Precision wet-and-dry sculpting customized to your cranial structure, crown growth, and natural texture.",
+                  "price": "$85",
+                  "href": "/#contact",
+                  "slug": "signature-haircut"
+                },
+                {
+                  "id": "02",
+                  "icon": "sparkles",
+                  "title": "Velvet Silk Blowout & Styling",
+                  "description": "Red-carpet blowouts, sculptural waves, and editorial updos infused with weightless thermal cashmere serums.",
+                  "price": "$65",
+                  "href": "/#contact",
+                  "slug": "hair-styling"
+                },
+                {
+                  "id": "03",
+                  "icon": "drop",
+                  "title": "24K Caviar Scalp & Hair Spa",
+                  "description": "Japanese micro-mist steam therapy, lymphatic cranial massage, and bond-repairing botanical masks.",
+                  "price": "$110",
+                  "href": "/#contact",
+                  "slug": "hair-spa-therapy"
+                },
+                {
+                  "id": "04",
+                  "icon": "palette",
+                  "title": "Dimensional Balayage & Gloss",
+                  "description": "Hand-painted French balayage, lived-in bronde, and crystal-shine glazing with zero-ammonia pigments.",
+                  "price": "$165",
+                  "href": "/#contact",
+                  "slug": "hair-coloring"
+                },
+                {
+                  "id": "05",
+                  "icon": "face",
+                  "title": "Artisan Beard & Skin Grooming",
+                  "description": "Straight-razor contour detailing, eucalyptus hot towels, volcanic clay detox, and cold-stone cryo-soothing.",
+                  "price": "$75",
+                  "href": "/#contact",
+                  "slug": "skin-grooming"
+                },
+                {
+                  "id": "06",
+                  "icon": "user",
+                  "title": "Couture Image Consultation",
+                  "description": "Digital face-geometry mapping, microscopic follicle analysis, and a 6-month bespoke transformation roadmap.",
+                  "price": "$50",
+                  "href": "/#contact",
+                  "slug": "personal-consultation"
+                }
+              ],
+              "serviceDetails": {
+                "bannerTitle": "Ritual Dossier",
+                "overviewBadge": "Ritual Overview",
+                "processBadge": "The 4-Stage Alchemy",
+                "list": [
+                  {
+                    "slug": "signature-haircut",
+                    "title": "Architectural Haircut",
+                    "metaDescription": "Precision wet-and-dry hair sculpting tailored to your bone structure at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Sculpted Silhouettes",
+                        "middle": "for Your",
+                        "highlight": "Bone Structure"
+                      },
+                      "description": "An extraordinary haircut should hold its shape effortlessly as it grows. Our directors combine British geometric sectioning with French dry-texturizing so your hair falls into place with minimal daily styling.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_13.jpg",
+                          "alt": "Master stylist executing precision scissor-over-comb work"
+                        },
+                        "secondary": {
+                          "src": "/images/Hair_salon_07.jpg",
+                          "alt": "Point-cutting long blonde layers for natural movement"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "scissors",
+                          "title": "Face-Geometry Mapping",
+                          "description": "Balanced to jawline and cheekbones"
+                        },
+                        {
+                          "icon": "diamond",
+                          "title": "Dry-Cut Refinement",
+                          "description": "Tailored to your natural fall"
+                        },
+                        {
+                          "icon": "lotus",
+                          "title": "Aromatic Wash Ritual",
+                          "description": "Includes shiatsu scalp pressure massage"
+                        },
+                        {
+                          "icon": "clock",
+                          "title": "8-Week Shape Retention",
+                          "description": "Grows out seamlessly without bulk"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Architectural Cutting",
+                        "highlight": "Methodology"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Diagnostic Mapping",
+                          "description": "We analyze crown swirl patterns, hair density, and facial proportions."
+                        },
+                        {
+                          "icon": "scissors",
+                          "title": "Structural Foundation",
+                          "description": "Precision wet cutting establishes clean perimeter lines and internal balance."
+                        },
+                        {
+                          "icon": "dryer",
+                          "title": "Silk Blowout & Dry Sculpt",
+                          "description": "Hair is blown smooth and dry-carved to release weight and build movement."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Bespoke Finish",
+                          "description": "Styled with botanical elixirs and personalized home-styling guidance."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/Hair_salon_14.jpg",
+                          "alt": "Precision comb and shear technique"
+                        },
+                        {
+                          "src": "/images/Hair_salon_28.jpg",
+                          "alt": "Tapered fade and crown texturizing"
+                        },
+                        {
+                          "src": "/images/Hair_salon_03.jpg",
+                          "alt": "Bespoke layered salon cut"
+                        },
+                        {
+                          "src": "/images/Hair_salon_16.jpg",
+                          "alt": "Detailing side profile silhouette"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "slug": "hair-styling",
+                    "title": "Velvet Silk Blowout & Styling",
+                    "metaDescription": "Editorial blowouts, red-carpet waves, and couture bridal styling at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Red-Carpet Movement",
+                        "middle": "with",
+                        "highlight": "Mirror Shine"
+                      },
+                      "description": "Whether preparing for a gala, an editorial shoot, or a week of effortless polish, our styling specialists use ionic ceramic brushes and weightless silk proteins to lock in bounce, volume, and humidity resistance.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_02.jpg",
+                          "alt": "Stylist crafting a voluminous glossy blowout"
+                        },
+                        "secondary": {
+                          "src": "/images/Hair_salon_04.jpg",
+                          "alt": "Soft editorial waves being styled in our studio"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "sparkles",
+                          "title": "Editorial Finish",
+                          "description": "From glass hair to Hollywood waves"
+                        },
+                        {
+                          "icon": "diamond",
+                          "title": "Thermal Cashmere Shield",
+                          "description": "Protects up to 450°F without residue"
+                        },
+                        {
+                          "icon": "lotus",
+                          "title": "Root-Lift Architecture",
+                          "description": "Weightless volume that never falls flat"
+                        },
+                        {
+                          "icon": "clock",
+                          "title": "72-Hour Humidity Lock",
+                          "description": "Frizz-proof brilliance day and night"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Couture Styling",
+                        "highlight": "Sequence"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Aesthetic Briefing",
+                          "description": "We align the texture and silhouette with your attire, neckline, and event."
+                        },
+                        {
+                          "icon": "drop",
+                          "title": "Botanical Prime",
+                          "description": "Clarifying wash followed by featherlight collagen and heat-shielding mist."
+                        },
+                        {
+                          "icon": "dryer",
+                          "title": "Tension Blowout & Set",
+                          "description": "Boar-bristle tension drying and pin-curl cooling for lasting memory."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Luminous Veil",
+                          "description": "Finished with cold-air sealing and diamond-dust shine mist."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/Hair_salon_02.jpg",
+                          "alt": "Round-brush volume blowout"
+                        },
+                        {
+                          "src": "/images/Hair_salon_04.jpg",
+                          "alt": "Lived-in coastal waves"
+                        },
+                        {
+                          "src": "/images/Hair_salon_15.jpg",
+                          "alt": "Precision finishing touch"
+                        },
+                        {
+                          "src": "/images/Hair_salon_25.jpg",
+                          "alt": "Textured crown volume"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "slug": "hair-spa-therapy",
+                    "title": "24K Caviar Scalp & Hair Spa",
+                    "metaDescription": "Japanese micro-mist head spa, scalp detox, and deep bond reconstruction at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Cellular Renewal",
+                        "middle": "for",
+                        "highlight": "Scalp & Follicles"
+                      },
+                      "description": "Inspired by Kyoto's holistic head-spa sanctuaries, this 75-minute restorative ritual detoxifies congested follicles, melts away cranial tension, and infuses parched strands with cold-pressed marula oil and vegan keratin peptides.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_08.jpg",
+                          "alt": "Client in deep relaxation during warm botanical wash"
+                        },
+                        "secondary": {
+                          "src": "/images/Hair_salon_05.jpg",
+                          "alt": "Therapeutic foaming scalp cleanse at porcelain basin"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "drop",
+                          "title": "Ultrasonic Micro-Mist",
+                          "description": "Opens cuticles for 5x deeper absorption"
+                        },
+                        {
+                          "icon": "lotus",
+                          "title": "30-Min Cranial Acupressure",
+                          "description": "Releases neck, temple, and ocular tension"
+                        },
+                        {
+                          "icon": "shield",
+                          "title": "Disulfide Bond Repair",
+                          "description": "Rebuilds colour-stressed hair fibers"
+                        },
+                        {
+                          "icon": "sparkles",
+                          "title": "Cashmere Softness",
+                          "description": "Instant elasticity and liquid shine"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Holistic Head-Spa",
+                        "highlight": "Ritual"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Micro-Camera Analysis",
+                          "description": "We inspect scalp hydration, lipid balance, and follicle vitality."
+                        },
+                        {
+                          "icon": "drop",
+                          "title": "AHA Botanical Exfoliation",
+                          "description": "Gentle sea-kelp and salicylic nectar dissolve buildup and impurities."
+                        },
+                        {
+                          "icon": "lotus",
+                          "title": "Caviar Mask & Steam Dome",
+                          "description": "Nutrient-dense masque activated under warm ozonated micro-mist."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Waterfall Rinse & Seal",
+                          "description": "Soothing herbal cascade followed by a pH-balancing silk blowout."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/hero-1.jpg",
+                          "alt": "Luxury basin aromatherapy wash"
+                        },
+                        {
+                          "src": "/images/Hair_salon_08.jpg",
+                          "alt": "Lymphatic scalp massage"
+                        },
+                        {
+                          "src": "/images/Hair_salon_05.jpg",
+                          "alt": "Botanical foam therapy"
+                        },
+                        {
+                          "src": "/images/about-styling.jpg",
+                          "alt": "Silky, restored hair strands"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "slug": "hair-coloring",
+                    "title": "Dimensional Balayage & Gloss",
+                    "metaDescription": "Custom French balayage, lived-in colour, and bond-building gloss treatments at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Sun-Lit Dimension",
+                        "middle": "with",
+                        "highlight": "Luminous Depth"
+                      },
+                      "description": "Our colour chemists approach every canvas like fine art. Using open-air French hand-painting, micro-foilyage, and acidic demi-permanent glazes, we craft multi-tonal shades that flatter your undertone and grow out without harsh demarcation lines.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_07.jpg",
+                          "alt": "Dimensional champagne blonde balayage result"
+                        },
+                        "secondary": {
+                          "src": "/images/about-styling.jpg",
+                          "alt": "Rich espresso brunette gloss reflection"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "palette",
+                          "title": "Undertone Alchemy",
+                          "description": "Custom-blended to illuminate your skin"
+                        },
+                        {
+                          "icon": "diamond",
+                          "title": "Ammonia-Free Oils",
+                          "description": "Zero odor, maximum scalp comfort"
+                        },
+                        {
+                          "icon": "shield",
+                          "title": "Integrated Bond Multiplier",
+                          "description": "Included in every lightening bowl"
+                        },
+                        {
+                          "icon": "clock",
+                          "title": "Seamless 4-Month Grow-Out",
+                          "description": "Soft root-melting for low maintenance"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Bespoke Colour",
+                        "highlight": "Formulation"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Undertone & Light Study",
+                          "description": "We evaluate iris pigment, skin warmth, and natural hair history."
+                        },
+                        {
+                          "icon": "palette",
+                          "title": "Artisanal Placement",
+                          "description": "Custom freehand painting or micro-weaving for organic dimension."
+                        },
+                        {
+                          "icon": "sparkles",
+                          "title": "Crystal Gloss Toning",
+                          "description": "Acidic silk glaze seals the cuticle and neutralizes unwanted warmth."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Radiant Reveal",
+                          "description": "Finished with UV-protective oil and studio lighting colour check."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/Hair_salon_07.jpg",
+                          "alt": "Sun-kissed blonde balayage"
+                        },
+                        {
+                          "src": "/images/about-styling.jpg",
+                          "alt": "Expensive brunette mirror gloss"
+                        },
+                        {
+                          "src": "/images/Hair_salon_02.jpg",
+                          "alt": "Rich dimensional waves"
+                        },
+                        {
+                          "src": "/images/Hair_salon_04.jpg",
+                          "alt": "Warm honey highlights"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "slug": "skin-grooming",
+                    "title": "Artisan Beard & Skin Ritual",
+                    "metaDescription": "Executive beard sculpting, hot-towel straight-razor shaves, and revitalizing facials at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Precision Grooming",
+                        "middle": "and",
+                        "highlight": "Dermal Revival"
+                      },
+                      "description": "Designed for the modern gentleman, this restorative treatment pairs geometric beard sculpting with a multi-step dermal detox. Eucalyptus steam towels, enzymatic exfoliation, and cold-pressed sandalwood oils leave skin energized and razor-sharp.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_06.jpg",
+                          "alt": "Master barber sculpting beard line with precision comb"
+                        },
+                        "secondary": {
+                          "src": "/images/Hair_salon_22.jpg",
+                          "alt": "Close-up of clean neck taper and skin detailing"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "face",
+                          "title": "Straight-Razor Contours",
+                          "description": "Crisp cheek and neckline geometry"
+                        },
+                        {
+                          "icon": "leaf",
+                          "title": "Volcanic Clay Detox",
+                          "description": "Draws out urban impurities and excess oil"
+                        },
+                        {
+                          "icon": "sparkles",
+                          "title": "Cryo-Stone Finish",
+                          "description": "Tightens pores and calms inflammation"
+                        },
+                        {
+                          "icon": "heart",
+                          "title": "Hot-Towel Aromatherapy",
+                          "description": "Infused with cedarwood and bergamot"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Gentleman's Grooming",
+                        "highlight": "Protocol"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Jawline Assessment",
+                          "description": "We map beard density and growth direction to strengthen your profile."
+                        },
+                        {
+                          "icon": "drop",
+                          "title": "Eucalyptus Steam & Cleanse",
+                          "description": "Triple hot-towel compress softens coarse bristles and opens pores."
+                        },
+                        {
+                          "icon": "face",
+                          "title": "Razor Sculpt & Mask",
+                          "description": "Precision blade edging followed by a charcoal peptide recovery mask."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Cold-Pressed Elixir",
+                          "description": "Conditioned with organic argan beard balm and matte dermal moisturizer."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/Hair_salon_06.jpg",
+                          "alt": "Beard tapering and comb work"
+                        },
+                        {
+                          "src": "/images/Hair_salon_22.jpg",
+                          "alt": "Foil shaver neckline finish"
+                        },
+                        {
+                          "src": "/images/Hair_salon_30.jpg",
+                          "alt": "Master artisan beard detailing"
+                        },
+                        {
+                          "src": "/images/man.jpg",
+                          "alt": "Fresh fade and sculpted beard"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "slug": "personal-consultation",
+                    "title": "Couture Image Consultation",
+                    "metaDescription": "Private one-on-one hair, scalp, and facial-proportion consultation at L'Or Noir Hair Atelier.",
+                    "overview": {
+                      "heading": {
+                        "main": "Bespoke Strategy",
+                        "middle": "for Your",
+                        "highlight": "Signature Look"
+                      },
+                      "description": "Before committing to a major transformation, sit down privately with our Creative Director. We conduct a comprehensive analysis of your facial golden ratio, skin undertone, hair porosity, and daily routine to architect a look that is unmistakably yours.",
+                      "images": {
+                        "main": {
+                          "src": "/images/Hair_salon_11.jpg",
+                          "alt": "Senior director consulting with client in private studio"
+                        },
+                        "secondary": {
+                          "src": "/images/Hair_salon_29.jpg",
+                          "alt": "Detailed hair texture and crown assessment"
+                        }
+                      },
+                      "highlights": [
+                        {
+                          "icon": "user",
+                          "title": "Director-Level Access",
+                          "description": "30-minute private diagnostic session"
+                        },
+                        {
+                          "icon": "chat",
+                          "title": "Golden-Ratio Visagism",
+                          "description": "Scientific facial proportion analysis"
+                        },
+                        {
+                          "icon": "lotus",
+                          "title": "Porosity & Strand Test",
+                          "description": "Guarantees predictable colour results"
+                        },
+                        {
+                          "icon": "heart",
+                          "title": "Curated Home Regimen",
+                          "description": "Exact prescription for your hair type"
+                        }
+                      ]
+                    },
+                    "process": {
+                      "heading": {
+                        "main": "Our Diagnostic",
+                        "highlight": "Framework"
+                      },
+                      "steps": [
+                        {
+                          "icon": "chat",
+                          "title": "Lifestyle Discovery",
+                          "description": "We explore your career, styling habits, and long-term hair aspirations."
+                        },
+                        {
+                          "icon": "user",
+                          "title": "Visagism & Colour Draping",
+                          "description": "We test warm and cool tonal swatches against your natural complexion."
+                        },
+                        {
+                          "icon": "sparkles",
+                          "title": "Lookbook Curation",
+                          "description": "We present tailored silhouette and colour references built for your features."
+                        },
+                        {
+                          "icon": "smile",
+                          "title": "Transformation Roadmap",
+                          "description": "Leave with a transparent treatment plan, timeline, and priority booking."
+                        }
+                      ],
+                      "images": [
+                        {
+                          "src": "/images/Hair_salon_10.jpg",
+                          "alt": "One-on-one client consultation"
+                        },
+                        {
+                          "src": "/images/Hair_salon_11.jpg",
+                          "alt": "Bespoke grooming discussion"
+                        },
+                        {
+                          "src": "/images/Hair_salon_12.jpg",
+                          "alt": "Precision profile evaluation"
+                        },
+                        {
+                          "src": "/images/Hair_salon_09.jpg",
+                          "alt": "Confident transformation result"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "HairAtelierWhyChooseUs1": {
+              "badge": "Why Choose Us",
+              "heading": {
+                "main": "Crafted for Those Who",
+                "highlight": "Accept Nothing Less"
+              },
+              "description": "Every detail of our flagship studio is engineered to elevate your grooming ritual into a restorative sensory escape.",
+              "list": [
+                {
+                  "icon": "scissors",
+                  "title": "Master-Tier Artisans",
+                  "description": "Every stylist holds a minimum of 8 years of editorial and luxury salon mastery."
+                },
+                {
+                  "icon": "diamond",
+                  "title": "Clean Botanical Chemistry",
+                  "description": "Ammonia-free, vegan formulations enriched with organic cold-pressed oils."
+                },
+                {
+                  "icon": "user-heart",
+                  "title": "Visagism Face Mapping",
+                  "description": "Bespoke proportions tailored to your cheekbones, jawline, and hair growth."
+                },
+                {
+                  "icon": "lotus",
+                  "title": "Acoustic Sanctuary",
+                  "description": " Reclining shiatsu wash suites with curated ambient soundscapes."
+                },
+                {
+                  "icon": "users",
+                  "title": "Unisex Couture Expertise",
+                  "description": "From avant-garde balayage to straight-razor gentleman's barbering."
+                },
+                {
+                  "icon": "shield",
+                  "title": "Medical-Grade Sterilization",
+                  "description": "UV-C autoclaved shears, single-use organic bamboo towels, and purified water."
+                },
+                {
+                  "icon": "clock",
+                  "title": "Zero-Wait Private Booking",
+                  "description": "Your chair is reserved exclusively for you—never double-booked or rushed."
+                },
+                {
+                  "icon": "heart",
+                  "title": "14-Day Perfection Guarantee",
+                  "description": "Complimentary refinement within two weeks if any detail needs adjustment."
+                }
+              ]
+            }
+          }
+        },
+        "Stats": {
+          "variants": {
+            "HairAtelierStats1": {
+              "badge": "Our Achievements",
+              "heading": {
+                "main": "Eighteen Years of",
+                "highlight": "Iconic Transformations"
+              },
+              "description": "Recognized by international style publications and trusted by discerning clients across Manhattan and beyond.",
+              "background": {
+                "src": "/images/about-salon.jpg",
+                "alt": "Golden-lit luxury mirrors and leather styling chairs at Hair Atelier"
+              },
+              "list": [
+                {
+                  "icon": "users",
+                  "value": 48500,
+                  "decimals": 0,
+                  "suffix": "+",
+                  "label": "Discerning Clients Served"
+                },
+                {
+                  "icon": "scissors",
+                  "value": 18,
+                  "decimals": 0,
+                  "suffix": "+",
+                  "label": "International Style Awards"
+                },
+                {
+                  "icon": "star",
+                  "value": 99.4,
+                  "decimals": 1,
+                  "suffix": "%",
+                  "label": "Client Retention Rate"
+                },
+                {
+                  "icon": "calendar",
+                  "value": 125000,
+                  "decimals": 0,
+                  "suffix": "+",
+                  "label": "Bespoke Rituals Completed"
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "HairAtelierGallery1": {
+              "badge": "Our Gallery",
+              "heading": {
+                "main": "Inside Our",
+                "highlight": "Visual Portfolio"
+              },
+              "description": "Explore architectural cuts, lived-in dimensional colour, and moments of calm inside our flagship sanctuary.",
+              "rows": [
+                [
+                  {
+                    "src": "/images/Hair_salon_01.jpg",
+                    "alt": "Minimalist limestone reception and wash sanctuary"
+                  },
+                  {
+                    "src": "/images/Hair_salon_07.jpg",
+                    "alt": "Champagne blonde dry-cutting session"
+                  },
+                  {
+                    "src": "/images/Hair_salon_21.jpg",
+                    "alt": "Master barber executing a tailored crown crop"
+                  },
+                  {
+                    "src": "/images/Hair_salon_02.jpg",
+                    "alt": "Velvet silk blowout and volume styling"
+                  }
+                ],
+                [
+                  {
+                    "src": "/images/Hair_salon_06.jpg",
+                    "alt": "Precision beard architecture and tapering"
+                  },
+                  {
+                    "src": "/images/Hair_salon_08.jpg",
+                    "alt": "24K Caviar head-spa basin therapy"
+                  },
+                  {
+                    "src": "/images/Hair_salon_13.jpg",
+                    "alt": "Scissor-over-comb executive grooming"
+                  },
+                  {
+                    "src": "/images/Hair_salon_04.jpg",
+                    "alt": "Sun-kissed balayage and soft editorial waves"
+                  },
+                  {
+                    "src": "/images/about-salon.jpg",
+                    "alt": "Noir marble styling stations with warm brass lighting"
+                  }
+                ]
+              ],
+              "page": {
+                "badge": "Complete Lookbook",
+                "heading": {
+                  "main": "Artistry Captured",
+                  "highlight": "In Detail"
+                },
+                "description": "Every photograph reflects real craft in our chairs—bespoke colour chemistry, precision geometric cuts, and restorative studio rituals.",
+                "perPage": 12,
+                "list": [
+                  {
+                    "src": "/images/Hair_salon_01.jpg",
+                    "alt": "Flagship architectural salon interior"
+                  },
+                  {
+                    "src": "/images/Hair_salon_07.jpg",
+                    "alt": "Blonde balayage precision layering"
+                  },
+                  {
+                    "src": "/images/Hair_salon_21.jpg",
+                    "alt": "Artisan scissor fade in studio"
+                  },
+                  {
+                    "src": "/images/Hair_salon_02.jpg",
+                    "alt": "Signature silk blowout finish"
+                  },
+                  {
+                    "src": "/images/Hair_salon_06.jpg",
+                    "alt": "Beard line sculpting with comb"
+                  },
+                  {
+                    "src": "/images/Hair_salon_08.jpg",
+                    "alt": "Botanical head-spa wash ritual"
+                  },
+                  {
+                    "src": "/images/Hair_salon_13.jpg",
+                    "alt": "Textured crop scissor work"
+                  },
+                  {
+                    "src": "/images/Hair_salon_04.jpg",
+                    "alt": "Luminous waves and colour studio"
+                  },
+                  {
+                    "src": "/images/about-salon.jpg",
+                    "alt": "Bespoke leather styling chairs"
+                  },
+                  {
+                    "src": "/images/Hair_salon_10.jpg",
+                    "alt": "Executive grooming suite"
+                  },
+                  {
+                    "src": "/images/Hair_salon_12.jpg",
+                    "alt": "Razor-sharp skin fade contour"
+                  },
+                  {
+                    "src": "/images/about-styling.jpg",
+                    "alt": "Liquid-shine brunette keratin finish"
+                  },
+                  {
+                    "src": "/images/Hair_salon_14.jpg",
+                    "alt": "Gloved artisan shear detailing"
+                  },
+                  {
+                    "src": "/images/Hair_salon_16.jpg",
+                    "alt": "Classic gentleman's side-part cut"
+                  },
+                  {
+                    "src": "/images/Hair_salon_22.jpg",
+                    "alt": "Foil shaver neckline refinement"
+                  },
+                  {
+                    "src": "/images/Hair_salon_25.jpg",
+                    "alt": "Textured quiff and taper fade"
+                  },
+                  {
+                    "src": "/images/Hair_salon_28.jpg",
+                    "alt": "Modern pompadour clipper work"
+                  },
+                  {
+                    "src": "/images/Hair_salon_29.jpg",
+                    "alt": "Slicked-back executive cut"
+                  },
+                  {
+                    "src": "/images/Hair_salon_30.jpg",
+                    "alt": "Full beard architecture and trim"
+                  },
+                  {
+                    "src": "/images/hero-1.jpg",
+                    "alt": "Deep-conditioning caviar hair bath"
+                  },
+                  {
+                    "src": "/images/man.jpg",
+                    "alt": "Signature fade and beard profile"
+                  },
+                  {
+                    "src": "/images/stats-bg.jpg",
+                    "alt": "Evening ambiance at L'Or Noir Hair Atelier"
+                  },
+                  {
+                    "src": "/images/Hair_salon_03.jpg",
+                    "alt": "Blonde styling and mirror consultation"
+                  },
+                  {
+                    "src": "/images/Hair_salon_05.jpg",
+                    "alt": "Clarifying scalp therapy session"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "HairAtelierTestimonials1": {
+              "badge": "Testimonials",
+              "heading": {
+                "main": "Praised by Manhattan's",
+                "highlight": "Style Connoisseurs"
+              },
+              "description": "Discover why editors, founders, and creatives entrust their signature look exclusively to our directors.",
+              "autoplayInterval": 5000,
+              "list": [
+                {
+                  "id": 1,
+                  "name": "Camille Laurent",
+                  "role": "Vogue Fashion Editor",
+                  "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+                  "rating": 5,
+                  "quote": "Their French balayage is unmatched in New York. Six months later, the grow-out still looks effortlessly sun-kissed, and the 24K caviar head spa left my hair feeling like spun silk."
+                },
+                {
+                  "id": 2,
+                  "name": "Julian Vance",
+                  "role": "Architectural Principal",
+                  "avatar": "https://randomuser.me/api/portraits/men/41.jpg",
+                  "rating": 5,
+                  "quote": "As an architect, I appreciate precision. The director mapped my cranial structure before picking up the shears. It is the first haircut I have ever had that styles itself in two minutes."
+                },
+                {
+                  "id": 3,
+                  "name": "Elena Rostova",
+                  "role": "Contemporary Art Gallerist",
+                  "avatar": "https://randomuser.me/api/portraits/women/33.jpg",
+                  "rating": 5,
+                  "quote": "Stepping into L'Or Noir feels like entering a private Parisian hotel. No noise, no rushing—just extraordinary craftsmanship, organic elixirs, and a blowout that lasts four days."
+                },
+                {
+                  "id": 4,
+                  "name": "Marcus Sterling",
+                  "role": "Venture Partner",
+                  "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+                  "rating": 5,
+                  "quote": "The Artisan Beard & Skin Ritual is my Friday non-negotiable. Between the eucalyptus hot towels, straight-razor linework, and cryo-stone finish, you walk out looking ten years sharper."
+                },
+                {
+                  "id": 5,
+                  "name": "Sophia Chen",
+                  "role": "Creative Director",
+                  "avatar": "https://randomuser.me/api/portraits/women/79.jpg",
+                  "rating": 5,
+                  "quote": "They rescued my over-processed hair with their bond-building gloss and dry-cut layering. My hair has never had this much mirror-like shine and natural movement."
+                }
+              ]
+            }
+          }
+        },
+        "ContactPage": {
+          "variants": {
+            "HairAtelierContactPage1": {
+              "form": {
+                "badge": "Contact Us",
+                "heading": {
+                  "main": "Get In",
+                  "highlight": "Touch"
+                },
+                "description": "Whether planning a bridal couture party, editorial booking, or personal transformation, our concierge will respond within two business hours.",
+                "image": {
+                  "src": "/images/Hair_salon_01.jpg",
+                  "alt": "L'Or Noir Hair Atelier serene reception lounge",
+                  "width": 864,
+                  "height": 1152
+                },
+                "fields": {
+                  "name": "Full Name *",
+                  "phone": "Direct Phone *",
+                  "email": "Email Address *",
+                  "service": "Select Desired Ritual *",
+                  "message": "Tell Us About Your Hair Goals *"
+                },
+                "services": [
+                  "Architectural Haircut",
+                  "Velvet Silk Blowout & Styling",
+                  "24K Caviar Scalp & Hair Spa",
+                  "Dimensional Balayage & Gloss",
+                  "Botanical Keratin Silk Infusion",
+                  "Bridal & Red-Carpet Couture",
+                  "Artisan Beard & Skin Ritual",
+                  "Couture Image Consultation"
+                ],
+                "submitLabel": "Send Concierge Inquiry",
+                "submittingLabel": "Dispatching...",
+                "errors": {
+                  "name": "Please enter your full name.",
+                  "phone": "Please enter a valid contact number.",
+                  "email": "Please enter a valid email address.",
+                  "service": "Please select a signature ritual.",
+                  "message": "Please share a few details about your request."
+                }
+              }
+            }
+          }
+        },
+        "Footer": {
+          "variants": {
+            "HairAtelierFooter1": {
+              "logo": {
+                "src": "/images/logo.svg",
+                "alt": "Velour Hair Atelier",
+                "width": 600,
+                "height": 160,
+                "href": "/#home"
+              },
+              "description": "Manhattan's premier haute coiffure and holistic head-spa sanctuary. Blending architectural cutting, botanical colour alchemy, and unhurried luxury.",
+              "socials": [
+                {
+                  "icon": "facebook",
+                  "label": "Facebook",
+                  "href": "https://facebook.com"
+                },
+                {
+                  "icon": "instagram",
+                  "label": "Instagram",
+                  "href": "https://instagram.com"
+                },
+                {
+                  "icon": "youtube",
+                  "label": "YouTube",
+                  "href": "https://youtube.com"
+                },
+                {
+                  "icon": "pinterest",
+                  "label": "Pinterest",
+                  "href": "https://pinterest.com"
+                }
+              ],
+              "columns": [
+                {
+                  "heading": {
+                    "main": "Quick",
+                    "highlight": "Links"
+                  },
+                  "list": [
+                    {
+                      "label": "Home",
+                      "href": "/#home"
+                    },
+                    {
+                      "label": "About",
+                      "href": "/#about"
+                    },
+                    {
+                      "label": "Services",
+                      "href": "/#services"
+                    },
+                    {
+                      "label": "Gallery",
+                      "href": "/#gallery"
+                    },
+                    {
+                      "label": "Testimonial",
+                      "href": "/#testimonials"
+                    },
+                    {
+                      "label": "Contact",
+                      "href": "/#contact"
+                    }
+                  ]
+                }
+              ],
+              "contact": {
+                "heading": {
+                  "main": "Contact",
+                  "highlight": "Info"
+                },
+                "list": [
+                  {
+                    "icon": "location",
+                    "lines": ["480 Madison Ave, Penthouse, New York, NY 10022"],
+                    "href": "https://maps.google.com/?q=480+Madison+Ave,+New+York,+NY+10022"
+                  },
+                  {
+                    "icon": "phone",
+                    "lines": ["+1 (212) 894-5700"],
+                    "href": "tel:+12128945700"
+                  },
+                  {
+                    "icon": "mail",
+                    "lines": ["concierge@hairatelier.com"],
+                    "href": "mailto:concierge@hairatelier.com"
+                  },
+                  {
+                    "icon": "clock",
+                    "lines": ["Tue – Sun : 9:30 AM – 8:30 PM"]
+                  }
+                ]
+              },
+              "copyright": "copyright @ 2026. All Rights Reserved. Powerd by Lestow."
+            }
+          }
+        }
+      }
+    }
+  }
+}
